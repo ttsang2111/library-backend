@@ -6,4 +6,5 @@ const server = app.listen(PORT, () => console.log(`Library backend server starts
 
 process.on('SIGINT', () => {
     server.close(() => console.log("\nExited library backend server."))
+    process.exit(1);
 })

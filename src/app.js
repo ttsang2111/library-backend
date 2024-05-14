@@ -10,6 +10,7 @@ app.use(helmet());
 app.use(compression());
 
 // init db
+require('./databases/init.mongodb');
 
 // init routers
 app.use('/', require('./routes'));
