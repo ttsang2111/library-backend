@@ -1,0 +1,24 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Where your knowledge blooms",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "library",
+    "book"
+  ],
+  "author": "unknown",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0"
+  }
+}
